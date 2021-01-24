@@ -314,7 +314,6 @@ hr {
     color: #FFFFFF;
     text-transform: uppercase;
 }
-/*contacts*/
 .contacts__top{
     display: flex;
     flex-direction: column;
@@ -365,12 +364,9 @@ form {
 .contacts-info {
     flex-grow: 1;
     align-items: center;
-    /* box-sizing: border-box; */
-    /* padding: 135px 214px; */
 }
 .contacts__img{
     align-self: center;
-    /* margin-bottom: 56px; */
 }
 
 .contacts__heading{
@@ -392,7 +388,7 @@ form {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    
+
     box-sizing: border-box;
     padding: 56px;
 
@@ -425,29 +421,19 @@ form {
     }
 
     .footer {
-        margin-top: 109px;
-        padding-top: 47px;
+        padding-top: 48px;
     }
 
-    .footer__top {
-        justify-content: space-around;
-        padding-bottom: 64px;
-    }
-    .footer__text{
-        width: 340px;
-    }
-    .footer__button{
-        padding: 10px 50px;
+    .footer__button {
+        padding: 4px 31px;
     }
 
-    .footer__info{
+    .footer__info {
         flex-direction: column;
-        align-items: center;
-        min-height: 105px;
     }
 
     .footer__li {
-        width: 72%;
+        margin-bottom: 24px;
     }
 }
 
@@ -539,7 +525,6 @@ form {
     }
     .footer__top{
         flex-direction: column;
-        width: 100%;
         padding-bottom: 41px;
     }
     .footer__text{
@@ -549,8 +534,10 @@ form {
         line-height: 28px;
         letter-spacing: normal;
     }
+
     .footer__heading {
-        width: 100%;
+        width: 75%;
+        margin: 0 auto 32px;
 
         text-align: center;
     }
@@ -578,40 +565,14 @@ form {
         padding-top: 32px;
 
         line-height: 19px;
-
-        /* width: 60%; */
     }
 
-
+    .footer__li {
+        margin-bottom: 18px;
+    }
 
     .footer__copy{
         margin-top: 32px;
-        /* text-align: center; */
         justify-content: center;
     }
 }
-
-
-
-
-
-
-/**/
-
-/* body {
-    background-image: url(homepage.png);
-    background-repeat: no-repeat;
-    background-position: center 70px;
-} */
-
-/* body {
-    background-image: url(homepage_tablet\ 768.png);
-    background-repeat: no-repeat;
-    background-position: center -71px;
-} */
-/*
-body {
-    background-image: url(homepage_iPhone\ 11\ Pro.png);
-    background-repeat: no-repeat;
-    background-position: center 163px;
-} */
