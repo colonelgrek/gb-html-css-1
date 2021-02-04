@@ -147,6 +147,8 @@ body {
 }
 
 .card__link {
+    margin-top: auto;
+
     font-size: 14px;
     line-height: 30px;
     letter-spacing: 0.05em;
@@ -512,8 +514,20 @@ textarea[placeholder] {
         padding-top: 48px;
     }
 
+    .footer__top{
+        width: 75%;
+        margin: 0 auto;
+    }
+
     .footer__button {
+        min-width: 100px;
         padding: 4px 31px;
+        margin-left: 50px;
+    }
+
+    .footer__bottom {
+        width: 75%;
+        margin: 0 auto;
     }
 
     .footer__info {
@@ -628,6 +642,7 @@ textarea[placeholder] {
         padding-bottom: 32px;
     }
     .footer__top{
+        width: 100%;
         flex-direction: column;
         padding-bottom: 41px;
     }
@@ -652,6 +667,7 @@ textarea[placeholder] {
 
     .footer__button{
         margin-top: 40px;
+        margin-left: 0;
         padding: 0 8px;
 
         font-size: 16px;
@@ -662,6 +678,10 @@ textarea[placeholder] {
 
         background: #5A98D0;
         text-decoration: none;
+    }
+
+    .footer__bottom{
+        width: 100%;
     }
 
     .footer__info{
